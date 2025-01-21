@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="card">
+            <div class="header-card">
+                <span class="user-avatar">
+                    <!-- En el readme anterior pedia una imagen
+                     y el test pide un icono -->
+                    <i class="fa fa-html5"></i>
+                    <!-- se deberia especificar esto? -->
+                    <span class="user-details">
+                        <span>HTML5</span>
+                        <span>Rigoberto</span>
+                    </span>
+                </span>
+                <span class="menu">
+                    <!-- Si le saco el fas por fa deja de funcionar el test -->
+                    <i class="fa fa-ellipsis-v"></i>
+                </span>
+            </div>
+            <div class="image">
+                <!-- pasa el test si se pone primero el class y luego la imagen -->
+                <img class="post-image" src="./image.png" />
+            </div>
+            <div class="content-card">
+                <div class="icons">
+                    <span class="share">
+                        <i class="fa fa-heart"></i>
+                        <!-- Like icon -->
+                        <i class="fa fa-comment"></i>
+                        <!-- Comment icon -->
+                        <i class="fa fa-paper-plane"></i>
+                        <!-- Send icon -->
+                    </span>
+                    <span class="save">
+                        <i class="fa fa-bookmark"></i>
+                        <!-- Save icon -->
+                    </span>
+                </div>
+                <div class="post-content">
+                    <p>
+                        Liked by <strong>4GeeksAcademy</strong>, <strong>html5</strong>, <strong>Web</strong> and
+                        <strong>100.000 others</strong>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt error alias laboriosam molestias ducimus est similique porro
+                        obcaecati dolorem nesciunt inventore maiores eum suscipit sapiente, rerum asperiores a veritatis pariatur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

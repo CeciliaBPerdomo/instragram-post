@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 35%;
+}
+.header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+.user-avatar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.menu i {
+    font-size: 24px;
+}
+.user-avatar i {
+    color: #F06529;
+    font-size: 24px;
+}
+.post-image {
+    width: 100%;
+}
+.content-card {
+    align-items: center;
+    padding: 10px 15px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+.share {
+    display: flex;
+    gap: 10px; /* Espaciado entre los íconos */
+}
+.save {
+    margin-left: auto; /* Empuja el ícono de guardar a la derecha */
+}
+.post-content p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
